@@ -3,7 +3,7 @@
 Make sure to install docker first https://www.docker.com/products/docker-desktop. After you installed docker run these commands
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 Then after the images are pulled and are running open a new terminal tab and run
 ```
