@@ -7,6 +7,6 @@ docker-compose up -d
 ```
 Then after the images are pulled and are running open a new terminal tab and run
 ```
-docker-compose exec backend sh -c "./start.sh"
+docker exec backend /bin/sh start.sh
 ```
 The API is ready to be consumed on `http://localhost:8000`
